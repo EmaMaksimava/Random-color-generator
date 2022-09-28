@@ -29,6 +29,13 @@ body {
   text-shadow: 2px 2px 4px rgba(115, 130, 130, 0.858);
 }
 
+.subtitle {
+  font-size: 2rem;
+  color: rgb(187, 228, 222);
+}
+
+
+
 .container {
   margin: 10px 10px;
   display: grid;
