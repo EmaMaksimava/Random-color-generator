@@ -34,7 +34,37 @@ body {
   color: rgb(187, 228, 222);
 }
 
+.value-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
 
+.input-value {
+  margin: 10px 20px;
+  display: inline-block;
+  padding: 3px;
+  font-size: 1.5rem;
+  border-radius: 5px;
+}
+
+.btn-submit {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100px;
+  height: 55px;
+  cursor: pointer;
+  background-color: rgb(57, 171, 171);
+  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.61);
+  border: none;
+  transition: 0.5s all;
+}
+
+.btn-submit:hover {
+  background-color: rgb(201, 242, 242);
+  box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.911);
+}
 
 .container {
   margin: 10px 10px;
