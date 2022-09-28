@@ -32,6 +32,7 @@ body {
 .subtitle {
   font-size: 2rem;
   color: rgb(187, 228, 222);
+  text-align: center;
 }
 
 .value-wrapper {
@@ -86,7 +87,6 @@ body {
   box-shadow: 0 2px 4px rgba(255, 255, 255, 0.61);
   transform: skew(120deg);
   text-align: center;
-  background-color: coral;
   transition: all .5s;
   cursor: pointer;
 }
